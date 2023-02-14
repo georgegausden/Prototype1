@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Playable
   - Coin
+  - passedThrough
+  - challengeObject
   layers:
   - Default
   - TransparentFX
