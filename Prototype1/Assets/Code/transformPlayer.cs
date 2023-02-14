@@ -36,6 +36,9 @@ public class transformPlayer : MonoBehaviour
             //switch the collider of the object
             Collider newObjectCollider = collision.gameObject.GetComponent<Collider>();
 
+            transform.localScale = collision.transform.localScale;
+
+
             if (newObjectCollider is BoxCollider)
             {
                 Destroy(playerCollider);
