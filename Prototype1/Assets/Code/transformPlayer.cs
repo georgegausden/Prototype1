@@ -50,6 +50,16 @@ public class transformPlayer : MonoBehaviour
                 playerCollider = gameObject.AddComponent<SphereCollider>();
             }
 
+            // Get the mesh and material of the collided object
+            Mesh mesh = collision.gameObject.GetComponent<MeshFilter>().sharedMesh;
+            Material material = collision.gameObject.GetComponent<MeshRenderer>().sharedMaterial;
+
+            // Set the mesh and material of the player object to match the collided object
+            MeshFilter meshFilter = GetComponent<MeshFilter>();
+            MeshRenderer meshRenderer = GetComponent<MeshRenderer>();
+            meshFilter.mesh = mesh;
+            meshRenderer.sharedMaterial = material;
+
 
 
 
