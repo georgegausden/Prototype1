@@ -58,9 +58,9 @@
   <ItemGroup>
     <Compile Include="Assets/Code/pickupCoin.cs" />
     <Compile Include="Assets/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs" />
+    <Compile Include="Assets/Code/passedThrough.cs" />
     <Compile Include="Assets/Code/transformPlayer.cs" />
     <Compile Include="Assets/Code/rotateObject.cs" />
-    <Compile Include="Assets/Code/passedThrough.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

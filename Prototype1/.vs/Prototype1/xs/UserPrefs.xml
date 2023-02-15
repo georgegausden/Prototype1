@@ -1,15 +1,10 @@
 ﻿<Properties StartupConfiguration="{32D0602F-1E6F-084D-B2AD-E9FAF79A17F0}|">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Code/transformPlayer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Code/passedThrough.cs">
     <Files>
-      <File FileName="Assets/Code/pickupCoin.cs" />
-      <File FileName="Assets/Code/rotateObject.cs" />
-      <File FileName="Assets/Code/transformPlayer.cs" Line="40" Column="1" />
+      <File FileName="Assets/Code/pickupCoin.cs" Line="1" Column="1" />
+      <File FileName="Assets/Code/rotateObject.cs" Line="1" Column="1" />
+      <File FileName="Assets/Code/transformPlayer.cs" Line="7" Column="30" />
+      <File FileName="Assets/Code/passedThrough.cs" Line="25" Column="67" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -23,5 +18,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="12192ff1-2d18-4af8-9876-a41ef46866d0" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="650ba0bb-4a7f-4128-9322-93adf4a1e318" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
